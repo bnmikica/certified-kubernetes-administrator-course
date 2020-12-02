@@ -109,6 +109,7 @@
 
    ```
    $ kubectl run redis --image=redis123
+   $ kubectl run redis ... dry-run -o yaml > pod.yaml
    ```
    
    </details>
