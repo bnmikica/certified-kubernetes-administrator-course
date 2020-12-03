@@ -19,6 +19,7 @@ Solutions to practice test for namespaces
 
    ```
    $ kubectl get pods --namespace=research
+   $ kubectl get pods -n research --no-headers | wc -l
    ```
    </details>
 
