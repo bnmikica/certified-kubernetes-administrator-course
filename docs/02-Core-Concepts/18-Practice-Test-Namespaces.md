@@ -29,6 +29,7 @@ Solutions to practice test for namespaces
 
    ```
    $ kubectl run redis --image=redis --namespace=finance
+   $ kubectl run redis --image=redis --dry-run=client -o yaml > pod.yaml
    ```
    </details>
 
@@ -38,6 +39,7 @@ Solutions to practice test for namespaces
 
    ```
    $ kubectl get pods --all-namespaces
+   $ kubectl get pods --all-namespaces | grep blue
    ```
    </details>
 
@@ -55,6 +57,7 @@ Solutions to practice test for namespaces
    <details>
 
    ```
+   $ kubectl get svc -n dev 
    Host Name: db-service.dev.svc.cluster.local and Host Port: 3306
    ```
    </details>
