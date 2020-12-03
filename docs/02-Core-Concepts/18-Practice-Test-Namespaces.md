@@ -9,6 +9,7 @@ Solutions to practice test for namespaces
 
    ```
    $ kubectl get namespace
+   $ kubectl get ns --no-headers | wc -l
    ```
    </details>
 
